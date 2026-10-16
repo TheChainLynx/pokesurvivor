@@ -421,8 +421,8 @@ G.DB = (() => {
    * (y lo pagaríamos nosotros). Ahí el juego va en modo local. Lo que lo
    * cierra de verdad es la clave de la API restringida a estos dominios en
    * Google Cloud; esto frena las copias que ni lo miran (14-10-2026).
-   */
-  const HOSTS = ['pokesurvivor.com', 'www.pokesurvivor.com', 'jpter78.github.io', 'localhost', '127.0.0.1'];
+   */   
+  const HOSTS = ['pokesurvivor.com', 'www.pokesurvivor.com', 'jpter78.github.io', 'thechainlynx.github.io', 'localhost', '127.0.0.1'];
 
   async function initCloud() {
     const cfg = G.FIREBASE_CONFIG;
